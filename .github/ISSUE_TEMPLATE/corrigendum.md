@@ -9,7 +9,7 @@ assignees: ''
 
 ## 书名
 
-[x] Kubernetes 权威指南（第四版）
+- [x] Kubernetes 权威指南（第四版）
 
 ## 问题所在页码
 
