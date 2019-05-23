@@ -1,0 +1,2 @@
+1. 第175页倒数第5行：cm-serverxml应改为cm-appconfigfiles
+2. 第175页最后1行：10257应改为10259
