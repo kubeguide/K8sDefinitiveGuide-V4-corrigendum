@@ -5,8 +5,10 @@
 
 2. 第36页第1行：kubectrl应改为kubectl
 
-3. 第107页最后1行：10257应改为10259
+3. 第83页倒数第6行：kubelct应改为kubectl
 
-4. 第175页倒数第5行：cm-serverxml应改为cm-appconfigfiles
+4. 第107页最后1行：10257应改为10259
 
-5. 第219页第3行：kubectrl应改为kubectl
+5. 第175页倒数第5行：cm-serverxml应改为cm-appconfigfiles
+
+6. 第219页第3行：kubectrl应改为kubectl
