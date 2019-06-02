@@ -3,12 +3,16 @@
           - name: MYSQL_SERVICE_HOST
             value: 169.169.253.143
 
-2. 第36页第1行：kubectrl应改为kubectl
+2. 第36页第1行：kubectrl 应改为 kubectl
 
-3. 第83页倒数第6行：kubelct应改为kubectl
+3. 第83页倒数第6行：kubelct 应改为 kubectl
 
-4. 第107页最后1行：10257应改为10259
+4. 第107页最后1行：10257 应改为 10259
 
-5. 第175页倒数第5行：cm-serverxml应改为cm-appconfigfiles
+5. 第138页表2.9倒数第8行：nodes这行应删除
 
-6. 第219页第3行：kubectrl应改为kubectl
+6. 第175页倒数第5行：cm-serverxml 应改为 cm-appconfigfiles
+
+7. 第185页第16行：k logs dapi-test-pod-volume 应改为 kubectl logs dapi-test-pod-volume
+
+8. 第219页第3行：kubectrl 应改为 kubectl
