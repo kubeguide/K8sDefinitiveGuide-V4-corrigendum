@@ -11,8 +11,13 @@
 
 5. 第138页表2.9倒数第8行：nodes这行应删除
 
-6. 第175页倒数第5行：cm-serverxml 应改为 cm-appconfigfiles
+6. 第151页倒数第10行：短横线“-”应该与上一行“imagePullSecrets:”左对齐。
 
-7. 第185页第16行：k logs dapi-test-pod-volume 应改为 kubectl logs dapi-test-pod-volume
+7. 第161页第8行：启动参数“--config” 应改为 启动参数“--pod-manifest-path”（或者在kubelet配置文件中设置staticPodPath，这也是新版本推荐的设置方式，--pod-manifest-path参数将逐渐弃用）
+   第161页第10行：--config=/etc/kubelet.d/ 应改为 --pod-manifest-path=/etc/kubelet.d/
 
-8. 第219页第3行：kubectrl 应改为 kubectl
+8. 第175页倒数第5行：cm-serverxml 应改为 cm-appconfigfiles
+
+9. 第185页第16行：k logs dapi-test-pod-volume 应改为 kubectl logs dapi-test-pod-volume
+
+10. 第219页第3行：kubectrl 应改为 kubectl
