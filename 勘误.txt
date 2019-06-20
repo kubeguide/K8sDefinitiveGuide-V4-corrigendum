@@ -32,6 +32,11 @@
     matchLabels:
       app: nginx
 
-13. 第320页倒数第3行：将tls.key和tls.crt文件的内容复制进去 应改为 将tls.key和tls.crt文件内容经过BASE64编码的结果复制进去
+13. 第240页第16行spec:下面补充3行：
+  selector:
+    matchLabels:
+      app: nginx
 
-14. 第386页第12行：OnwerReferencesPermissionEnforcement 应改为 OwnerReferencesPermissionEnforcement
+14. 第320页倒数第3行：将tls.key和tls.crt文件的内容复制进去 应改为 将tls.key和tls.crt文件内容经过BASE64编码的结果复制进去
+
+15. 第386页第12行：OnwerReferencesPermissionEnforcement 应改为 OwnerReferencesPermissionEnforcement
