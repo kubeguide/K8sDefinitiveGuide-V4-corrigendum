@@ -27,27 +27,34 @@
     matchLabels:
       app: nginx
 
-12. 第219页第3行：kubectrl 应改为 kubectl
+12. 第216页第2行：“区别是第1位是分钟而不是秒”应删除
+    第216页第4行：最后一个单词“Year”应删除
 
-13. 第225页第8行spec:下面补充3行：
+13. 第219页第3行：kubectrl 应改为 kubectl
+
+14. 第225页第8行spec:下面补充3行：
   selector:
     matchLabels:
       app: nginx
 
-14. 第240页第16行spec:下面补充3行：
+15. 第240页第16行spec:下面补充3行：
   selector:
     matchLabels:
       app: nginx
 
-15. 第320页倒数第3行：将tls.key和tls.crt文件的内容复制进去 应改为 将tls.key和tls.crt文件内容经过BASE64编码的结果复制进去
+16. 第243页第8行：设置的期望 应改为 当前实际使用的
 
-16. 第386页第12行：OnwerReferencesPermissionEnforcement 应改为 OwnerReferencesPermissionEnforcement
+17. 第320页倒数第3行：将tls.key和tls.crt文件的内容复制进去 应改为 将tls.key和tls.crt文件内容经过BASE64编码的结果复制进去
 
-17. 第444页倒数第13行：为什么不能只启动第1个Pod中的容器，而将第2个Pod中的容器关联到第1个容器呢 应改为
+18. 第386页第12行：OnwerReferencesPermissionEnforcement 应改为 OwnerReferencesPermissionEnforcement
+
+19. 第444页倒数第13行：为什么不能只启动第1个Pod中的容器，而将第2个Pod中的容器关联到第1个容器呢 应改为
                       为什么不能只启动1个容器，而将第2个容器关联到第1个容器呢
 
-18. 第444页倒数第8行：Google_containers 应改为 google_containers
+20. 第444页倒数第8行：Google_containers 应改为 google_containers
 
-19. 第664页第13行：Kubernetes的kubelet通过计算 应改为 Kubernetes的kube-scheduler通过计算
+21. 第517页倒数第8行：“注意，PVC和PV都受限于Namespace，PVC在选择PV时受到Namespace的限制，只有相同Namespace中的PV才可能与PVC绑定。” 应改为 “注意，PVC受限于Namespace，”
 
-20. 第699页第19行：STATE设置为exist 应改为 STATE设置为new
+22. 第664页第13行：Kubernetes的kubelet通过计算 应改为 Kubernetes的kube-scheduler通过计算
+
+23. 第699页第19行：STATE设置为exist 应改为 STATE设置为new
