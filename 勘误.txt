@@ -7,54 +7,60 @@
 
 3. 第57页倒数第8行：kuebrnetes 应改为 kubernetes
 
-4. 第83页倒数第6行：kubelct 应改为 kubectl
+4. 第67页第10行：etcdctl endpoint health 应改为 etcdctl cluster-health
 
-5. 第107页最后1行：10257 应改为 10259
+5. 第76页第22行：--service-account-key-file 应改为 --service-account-private-key-file
 
-6. 第138页表2.9倒数第8行：nodes这行应删除
+6. 第83页倒数第6行：kubelct 应改为 kubectl
 
-7. 第151页倒数第10行：短横线“-”应该与上一行“imagePullSecrets:”左对齐。
+7. 第107页最后1行：10257 应改为 10259
 
-8. 第161页第8行：启动参数“--config” 应改为 启动参数“--pod-manifest-path”（或者在kubelet配置文件中设置staticPodPath，这也是新版本推荐的设置方式，--pod-manifest-path参数将逐渐弃用）
+8. 第138页表2.9倒数第8行：nodes这行应删除
+
+9. 第151页倒数第10行：短横线“-”应该与上一行“imagePullSecrets:”左对齐。
+
+10. 第161页第8行：启动参数“--config” 应改为 启动参数“--pod-manifest-path”（或者在kubelet配置文件中设置staticPodPath，这也是新版本推荐的设置方式，--pod-manifest-path参数将逐渐弃用）
    第161页第10行：--config=/etc/kubelet.d/ 应改为 --pod-manifest-path=/etc/kubelet.d/
 
-9. 第175页倒数第5行：cm-serverxml 应改为 cm-appconfigfiles
+11. 第175页倒数第5行：cm-serverxml 应改为 cm-appconfigfiles
 
-10. 第185页第16行：k logs dapi-test-pod-volume 应改为 kubectl logs dapi-test-pod-volume
+12. 第185页第16行：k logs dapi-test-pod-volume 应改为 kubectl logs dapi-test-pod-volume
 
-11. 第193页第17行spec:下面补充3行：
+13. 第193页第17行spec:下面补充3行：
   selector:
     matchLabels:
       app: nginx
 
-12. 第216页第2行：“区别是第1位是分钟而不是秒”应删除
+14. 第216页第2行：“区别是第1位是分钟而不是秒”应删除
     第216页第4行：最后一个单词“Year”应删除
 
-13. 第219页第3行：kubectrl 应改为 kubectl
+15. 第219页第3行：kubectrl 应改为 kubectl
 
-14. 第225页第8行spec:下面补充3行：
+16. 第225页第8行spec:下面补充3行：
   selector:
     matchLabels:
       app: nginx
 
-15. 第240页第16行spec:下面补充3行：
+17. 第240页第16行spec:下面补充3行：
   selector:
     matchLabels:
       app: nginx
 
-16. 第243页第8行：设置的期望 应改为 当前实际使用的
+18. 第243页第8行：设置的期望 应改为 当前实际使用的
 
-17. 第320页倒数第3行：将tls.key和tls.crt文件的内容复制进去 应改为 将tls.key和tls.crt文件内容经过BASE64编码的结果复制进去
+19. 第320页倒数第3行：将tls.key和tls.crt文件的内容复制进去 应改为 将tls.key和tls.crt文件内容经过BASE64编码的结果复制进去
 
-18. 第386页第12行：OnwerReferencesPermissionEnforcement 应改为 OwnerReferencesPermissionEnforcement
+20. 第386页第12行：OnwerReferencesPermissionEnforcement 应改为 OwnerReferencesPermissionEnforcement
 
-19. 第444页倒数第13行：为什么不能只启动第1个Pod中的容器，而将第2个Pod中的容器关联到第1个容器呢 应改为
+21. 第444页倒数第13行：为什么不能只启动第1个Pod中的容器，而将第2个Pod中的容器关联到第1个容器呢 应改为
                       为什么不能只启动1个容器，而将第2个容器关联到第1个容器呢
 
-20. 第444页倒数第8行：Google_containers 应改为 google_containers
+22. 第444页倒数第8行：Google_containers 应改为 google_containers
 
-21. 第517页倒数第8行：“注意，PVC和PV都受限于Namespace，PVC在选择PV时受到Namespace的限制，只有相同Namespace中的PV才可能与PVC绑定。” 应改为 “注意，PVC受限于Namespace，”
+23. 第448页倒数第10行和倒数第8行：59528 应改为 33761
 
-22. 第664页第13行：Kubernetes的kubelet通过计算 应改为 Kubernetes的kube-scheduler通过计算
+24. 第517页倒数第8行：“注意，PVC和PV都受限于Namespace，PVC在选择PV时受到Namespace的限制，只有相同Namespace中的PV才可能与PVC绑定。” 应改为 “注意，PVC受限于Namespace，”
 
-23. 第699页第19行：STATE设置为exist 应改为 STATE设置为new
+25. 第664页第13行：Kubernetes的kubelet通过计算 应改为 Kubernetes的kube-scheduler通过计算
+
+26. 第699页第19行：STATE设置为exist 应改为 STATE设置为new
