@@ -46,7 +46,7 @@
     matchLabels:
       app: nginx
 
-18. 第243页第8行：设置的期望 应改为 当前实际使用的
+18. 第243页第9行：设置的期望 应改为 当前实际使用的
 
 19. 第266页第6行：StorageClass 应改为 Headless Service
 
