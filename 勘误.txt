@@ -70,3 +70,5 @@
 28. 第664页第13行：Kubernetes的kubelet通过计算 应改为 Kubernetes的kube-scheduler通过计算
 
 29. 第699页第19行：STATE设置为exist 应改为 STATE设置为new
+
+30. 第37页第10行：kafka-3.kafka 应改为 kafka-2.kafka
