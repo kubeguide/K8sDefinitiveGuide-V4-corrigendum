@@ -72,3 +72,7 @@
 29. 第699页第19行：STATE设置为exist 应改为 STATE设置为new
 
 30. 第37页第10行：kafka-3.kafka 应改为 kafka-2.kafka
+
+31. 第650页第9行：464Mi 应改为 4016Mi
+
+32. 第650页第31行：1341MiB 应改为 1646MiB
