@@ -76,3 +76,23 @@
 31. 第650页第9行：464Mi 应改为 4016Mi
 
 32. 第650页第31行：1341MiB 应改为 1646MiB
+
+33. 第40页倒数第5行和倒数第3行，左边增加1个空格，从倒数第8行到倒数第3行原文为：
+spec:
+  ports:
+  - port: 8080
+   name: service-port
+  - port: 8005
+   name: shutdown-port
+应改为：
+spec:
+  ports:
+  - port: 8080
+    name: service-port
+  - port: 8005
+    name: shutdown-port
+
+34. 第362页倒数第6行，包括主题属性 应改完 包括主体属性
+
+35. 第66页第5行，/usr/lib/system/system 应改为 /usr/lib/systemd/system
+
