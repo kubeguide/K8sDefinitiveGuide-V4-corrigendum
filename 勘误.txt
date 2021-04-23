@@ -97,3 +97,5 @@ spec:
 35. 第66页第5行，/usr/lib/system/system 应改为 /usr/lib/systemd/system
 
 36. 第216页第9行：有效范围为0～31的整数 应改为 有效范围为1～31的整数
+
+37. 第239页倒数第3行：Paritioned 应改为 Partitioned
