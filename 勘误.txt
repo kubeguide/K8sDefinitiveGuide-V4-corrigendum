@@ -7,8 +7,6 @@
 
 3. 第57页倒数第8行：kuebrnetes 应改为 kubernetes
 
-4. 第67页第10行：etcdctl endpoint health 应改为 etcdctl cluster-health
-
 5. 第76页第22行：--service-account-key-file 应改为 --service-account-private-key-file
 
 6. 第83页倒数第6行：kubelct 应改为 kubectl
