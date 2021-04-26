@@ -7,75 +7,75 @@
 
 3. 第57页倒数第8行：kuebrnetes 应改为 kubernetes
 
-5. 第76页第22行：--service-account-key-file 应改为 --service-account-private-key-file
+4. 第76页第22行：--service-account-key-file 应改为 --service-account-private-key-file
 
-6. 第83页倒数第6行：kubelct 应改为 kubectl
+5. 第83页倒数第6行：kubelct 应改为 kubectl
 
-7. 第107页最后1行：10257 应改为 10259
+6. 第107页最后1行：10257 应改为 10259
 
-8. 第138页表2.9倒数第8行：nodes这行应删除
+7. 第138页表2.9倒数第8行：nodes这行应删除
 
-9. 第151页倒数第10行：短横线“-”应该与上一行“imagePullSecrets:”左对齐。
+8. 第151页倒数第10行：短横线“-”应该与上一行“imagePullSecrets:”左对齐。
 
-10. 第161页第8行：启动参数“--config” 应改为 启动参数“--pod-manifest-path”（或者在kubelet配置文件中设置staticPodPath，这也是新版本推荐的设置方式，--pod-manifest-path参数将逐渐弃用）
+9. 第161页第8行：启动参数“--config” 应改为 启动参数“--pod-manifest-path”（或者在kubelet配置文件中设置staticPodPath，这也是新版本推荐的设置方式，--pod-manifest-path参数将逐渐弃用）
    第161页第10行：--config=/etc/kubelet.d/ 应改为 --pod-manifest-path=/etc/kubelet.d/
 
-11. 第175页倒数第5行：cm-serverxml 应改为 cm-appconfigfiles
+10. 第175页倒数第5行：cm-serverxml 应改为 cm-appconfigfiles
 
-12. 第185页第16行：k logs dapi-test-pod-volume 应改为 kubectl logs dapi-test-pod-volume
+11. 第185页第16行：k logs dapi-test-pod-volume 应改为 kubectl logs dapi-test-pod-volume
 
-13. 第193页第17行spec:下面补充3行：
+12. 第193页第17行spec:下面补充3行：
   selector:
     matchLabels:
       app: nginx
 
-14. 第216页第2行：“区别是第1位是分钟而不是秒”应删除
+13. 第216页第2行：“区别是第1位是分钟而不是秒”应删除
     第216页第4行：最后一个单词“Year”应删除
 
-15. 第219页第3行：kubectrl 应改为 kubectl
+14. 第219页第3行：kubectrl 应改为 kubectl
 
-16. 第225页第8行spec:下面补充3行：
+15. 第225页第8行spec:下面补充3行：
   selector:
     matchLabels:
       app: nginx
 
-17. 第240页第16行spec:下面补充3行：
+16. 第240页第16行spec:下面补充3行：
   selector:
     matchLabels:
       app: nginx
 
-18. 第243页第9行：设置的期望 应改为 当前实际使用的
+17. 第243页第9行：设置的期望 应改为 当前实际使用的
 
-19. 第266页第6行：StorageClass 应改为 Headless Service
+18. 第266页第6行：StorageClass 应改为 Headless Service
 
-20. 第284页第16行：IP 应改为 ip
+19. 第284页第16行：IP 应改为 ip
 
-21. 第320页倒数第3行：将tls.key和tls.crt文件的内容复制进去 应改为 将tls.key和tls.crt文件内容经过BASE64编码的结果复制进去
+20. 第320页倒数第3行：将tls.key和tls.crt文件的内容复制进去 应改为 将tls.key和tls.crt文件内容经过BASE64编码的结果复制进去
 
-22. 第386页第12行：OnwerReferencesPermissionEnforcement 应改为 OwnerReferencesPermissionEnforcement
+21. 第386页第12行：OnwerReferencesPermissionEnforcement 应改为 OwnerReferencesPermissionEnforcement
 
-23. 第416页第1行：NETIF_F_ ETNS_LOCAL 应改为 NETIF_F_NETNS_LOCAL
+22. 第416页第1行：NETIF_F_ ETNS_LOCAL 应改为 NETIF_F_NETNS_LOCAL
 
-24. 第444页倒数第13行：为什么不能只启动第1个Pod中的容器，而将第2个Pod中的容器关联到第1个容器呢 应改为
+23. 第444页倒数第13行：为什么不能只启动第1个Pod中的容器，而将第2个Pod中的容器关联到第1个容器呢 应改为
                       为什么不能只启动1个容器，而将第2个容器关联到第1个容器呢
 
-25. 第444页倒数第8行：Google_containers 应改为 google_containers
+24. 第444页倒数第8行：Google_containers 应改为 google_containers
 
-26. 第448页倒数第10行和倒数第8行：59528 应改为 33761
+25. 第448页倒数第10行和倒数第8行：59528 应改为 33761
 
-27. 第517页倒数第8行：“注意，PVC和PV都受限于Namespace，PVC在选择PV时受到Namespace的限制，只有相同Namespace中的PV才可能与PVC绑定。” 应改为 “注意，PVC受限于Namespace，”
+26. 第517页倒数第8行：“注意，PVC和PV都受限于Namespace，PVC在选择PV时受到Namespace的限制，只有相同Namespace中的PV才可能与PVC绑定。” 应改为 “注意，PVC受限于Namespace，”
 
-28. 第664页第13行：Kubernetes的kubelet通过计算 应改为 Kubernetes的kube-scheduler通过计算
+27. 第664页第13行：Kubernetes的kubelet通过计算 应改为 Kubernetes的kube-scheduler通过计算
 
-29. 第699页第19行：STATE设置为exist 应改为 STATE设置为new
+28. 第699页第19行：STATE设置为exist 应改为 STATE设置为new
 
-30. 第37页第10行：kafka-3.kafka 应改为 kafka-2.kafka
+29. 第37页第10行：kafka-3.kafka 应改为 kafka-2.kafka
 
-31. 第650页第9行：464Mi 应改为 4016Mi
+30. 第650页第9行：464Mi 应改为 4016Mi
 
-32. 第650页第31行：1341MiB 应改为 1646MiB
+31. 第650页第31行：1341MiB 应改为 1646MiB
 
-33. 第40页倒数第5行和倒数第3行，左边增加1个空格，从倒数第8行到倒数第3行原文为：
+32. 第40页倒数第5行和倒数第3行，左边增加1个空格，从倒数第8行到倒数第3行原文为：
 spec:
   ports:
   - port: 8080
@@ -90,10 +90,15 @@ spec:
   - port: 8005
     name: shutdown-port
 
-34. 第362页倒数第6行，包括主题属性 应改完 包括主体属性
+33. 第362页倒数第6行，包括主题属性 应改完 包括主体属性
 
-35. 第66页第5行，/usr/lib/system/system 应改为 /usr/lib/systemd/system
+34. 第66页第5行，/usr/lib/system/system 应改为 /usr/lib/systemd/system
 
-36. 第216页第9行：有效范围为0～31的整数 应改为 有效范围为1～31的整数
+35. 第216页第9行：有效范围为0～31的整数 应改为 有效范围为1～31的整数
 
-37. 第239页倒数第3行：Paritioned 应改为 Partitioned
+36. 第239页倒数第3行：Paritioned 应改为 Partitioned
+
+37. 第369页，倒数第9行“# ClusterRole 不受限于命名空间，所以无须设置Namespace 的名称”下面，应该补充一行：
+  name: secret-reader
+
+38. 第371页，图6.2中 RoleBinding 名称 pod-reader 应改为：read-pods
