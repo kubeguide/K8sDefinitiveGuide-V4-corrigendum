@@ -113,29 +113,31 @@ spec:
 
 43. 第385页第8行：EventReateLimit 应改为 EventRateLimit
 
-44. 第401页第10行：
+44. 第393页倒数第10行：spc.ImagePullSecrets 应改为 spec.imagePullSecrets
+
+45. 第401页第10行：
 必须以非root组运行容器，要求Pod的securityContext.runAsUser设置一个非0的用户ID，或者镜像中在USER字段设置了用户ID
 应改为：
 必须以非root组运行容器，要求Pod的securityContext.runAsGroup设置一个非0的用户组ID，
 
-45. 第416页图7.2中：右边方框中的 Namespace1 应改为 Namespace2
+46. 第416页图7.2中：右边方框中的 Namespace1 应改为 Namespace2
 
-46. 第414页第14行：网站栈变量 应改为 网络栈变量
+47. 第414页第14行：网站栈变量 应改为 网络栈变量
 
-47. 第427页第4行：RPC1918 应改为 RFC 1918
+48. 第427页第4行：RPC1918 应改为 RFC 1918
 
-48. 第441页第5和6行：gw 192.168.130 应改为 gw 192.168.1.130；gw 192.168.131 应改为 gw 192.168.1.131
+49. 第441页第5和6行：gw 192.168.130 应改为 gw 192.168.1.130；gw 192.168.131 应改为 gw 192.168.1.131
 
-49. 第515页倒数第2行：阶段（Phaes） 应改为 阶段（Phase） 
+50. 第515页倒数第2行：阶段（Phaes） 应改为 阶段（Phase） 
 
-50. 第516页倒数第4行：request.storage 应改为 requests.storage
+51. 第516页倒数第4行：request.storage 应改为 requests.storage
 
-51. 第538页第3行：“in-true”（树内） 应改为 “in-tree”（树内）
+52. 第538页第3行：“in-true”（树内） 应改为 “in-tree”（树内）
 
-52. 第571页倒数第3行：apiVersion: extensions:v1beta1 应改为 apiVersion: extensions/v1beta1
+53. 第571页倒数第3行：apiVersion: extensions:v1beta1 应改为 apiVersion: extensions/v1beta1
 
-53. 第590页倒数第1行：PersistentVolumeclaims 应改为 PersistentVolumeClaim
+54. 第590页倒数第1行：PersistentVolumeclaims 应改为 PersistentVolumeClaim
 
-54. 第598页倒数第6行：DefaultKubernetesClient("http://192.168.1.128: 8080"); 应改为 DefaultKubernetesClient("http://192.168.1.128:8080");
+55. 第598页倒数第6行：DefaultKubernetesClient("http://192.168.1.128: 8080"); 应改为 DefaultKubernetesClient("http://192.168.1.128:8080");
 
-55. 第621页第4行：stcatus 应改为 status
+56. 第621页第4行：stcatus 应改为 status
