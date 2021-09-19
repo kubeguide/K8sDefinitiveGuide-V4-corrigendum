@@ -90,7 +90,7 @@ spec:
   - port: 8005
     name: shutdown-port
 
-33. 第362页倒数第6行，包括主题属性 应改完 包括主体属性
+33. 第362页倒数第6行，包括主题属性 应改为 包括主体属性
 
 34. 第66页第5行，/usr/lib/system/system 应改为 /usr/lib/systemd/system
 
