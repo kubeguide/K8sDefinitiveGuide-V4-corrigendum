@@ -102,3 +102,7 @@ spec:
   name: secret-reader
 
 38. 第371页，图6.2中 RoleBinding 名称 pod-reader 应改为：read-pods
+
+39. 第155-156页，表格中的spec.volumes[].livenessProbe 应改为 spec.containers[].livenessProbe
+
+40. 第185页，在/etc/annotations文件中将包含metadata.annotations的全部Label列表 应改为 在/etc/annotations文件中将包含metadata.annotations的全部Annotation列表
